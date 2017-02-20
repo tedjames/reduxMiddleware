@@ -1,4 +1,3 @@
-// Currently logs every action
 export default function({ dispatch }) {
   return next => action => {
     // if the action doesn't have a payload or if the payload doesn't have a callback...
